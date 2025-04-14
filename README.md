@@ -1,12 +1,38 @@
-# React + Vite
+# AutoComplete Search Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React component provides a simple autocomplete search functionality. As the user types in the input field, it displays a list of suggestions based on the provided data.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Live Search:** Suggestions appear as the user types.
+- **Filtering:** Suggestions are filtered based on whether they include the entered text (case-insensitive).
+- **Clear Suggestions:** The suggestion list disappears when the input field is empty.
+- **Selectable Suggestions:** Clicking on a suggestion populates the input field with the selected value.
+- **Basic Styling:** Includes basic styling for dark and light modes.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- useState hook
+
+## Installation
+
+1. Make sure you have Node.js and npm (or yarn) installed on your system.
+2. Create a new React project (if you haven't already):
+
+   ```bash
+   npx create-react-app autocomplete-search
+   cd autocomplete-search
+
+   const data = [
+  "React",
+  "Redux",
+  "JavaScript",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "GraphQL",
+  "TypeScript",
+  "Tailwind CSS",
+  "Chakra UI",
+];
