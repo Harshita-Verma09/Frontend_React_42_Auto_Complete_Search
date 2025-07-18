@@ -11,6 +11,7 @@ const data = [
   "TypeScript",
   "Tailwind CSS",
   "Chakra UI",
+  
 ];
 
 export default function AutoCompleteSearch() {
